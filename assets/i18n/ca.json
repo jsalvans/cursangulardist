@@ -1,0 +1,34 @@
+{
+    "title": "Curs Angular",
+    "cercar": "Cercar",
+    "netejar.filtre": "Netejar filtre",
+    "tots": "Tots",
+
+    "que.es": "Que és?",
+    "representacio.title": "Es pot representar de varies formes:",
+
+    "angular.binding.twoway.explicacio": "Aquest tipus de binding serveix per enviar i rebre dades de la vista al component. Si es canvia el valor en la vista s'actualitzarà la variable corresponent al component i viceversa.",
+    "angular.binding.twoway.on": "On <code>expression</code> és el valor que es vol imprimir, normalment una variable, i <code>target</code> és l'atribut on es vol aplicar l'expressió.",
+
+    "angular.routing.explicacio1": "El <i>routing</i> és la forma de dir-li a Angular quins components es faràn servir depenent de les rutes per on vagi navegant l'usuari.",
+    "angular.routing.explicacio2": "Quan es crea un projecte nou amb Angular Cli aquest et pregunta si el vols implementar, crean-te el fitxer <code>src/app/app-routing.module.ts</code>, per poder configurar les diferents rutes, i configurant-te el <code>src/app/app.module.ts</code>.",
+    "angular.routing.explicacio3": "En cas de no haver generat el fitxer amb Angular Cli podem configurar el projecte manualment.",
+
+    "angular.routing.config.title": "Configurar el projecte per a acceptar rutes",
+    "angular.routing.config.explicacio1": "Primer de tot crearem el fitxer <code>src/app/app-routing.module.ts</code> el qual ha de tenir el següent aspecte:",
+    "angular.routing.config.explicacio2": "Tot seguit l'incorporem al <code>src/app/app.module.ts</code>:",
+    "angular.routing.config.explicacio3": "A partir d'aquí ja podem configurar les rutes per al nostre projecte.",
+
+    "angular.routing.rutes.title": "Configuració de les rutes",
+    "angular.routing.rutes.explicacio1": "Les rutes es configuren en el fitxer <code>src/app/app-routing.module.ts</code>, dins de la variable routes.",
+    "angular.routing.rutes.explicacio2": "Cada ruta estarà definida dins de claus(<code>{ }</code>) i pot tenir els següents paràmetres:",
+
+    "parametre": "Paràmetre",
+    "tipus": "Tipus",
+    "explicacio": "Explicació",
+    "exemple": "Exemple",
+    "component": "Component",
+    "vista": "Vista",
+    "resultat": "Resultat",
+    "resultat.escriviu": "escriviu dins dels camps"
+}
