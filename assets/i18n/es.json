@@ -10,7 +10,7 @@
   "angular.binding.twoway.explicacio": "Este tipo de binding sirve para enviar y recibir datos de la vista al componente. Si se cambia el valor en la vista se actualizará la variable correspondiente en el componente y viceversa.",
   "angular.binding.twoway.on": "Donde <code>expression</code> es el valor que se quiere imprimir, normalmente una variable, y <code>target</code> es el atributo donde se quiere aplicar la expresión.",
 
-  "angular.routing.explicacio1": "El <i>routing</i> es la forma de decirle a Angular que componentes se utilizaran dependiendo de las rutas por donde vaya navegando el usuario.",
+  "angular.routing.explicacio1": "El <i>routing</i> es la forma de decirle a Angular qué componentes se utilizaran dependiendo de las rutas por donde vaya navegando el usuario.",
   "angular.routing.explicacio2": "Cuando se crea un proyecto nuevo con Angular Cli este te pregunta si lo quieres implementar, creandote el fichero <code>src/app/app-routing.module.ts</code>, para poder configurar las diferentes rutas, y configurandote el <code>src/app/app.module.ts</code>.",
   "angular.routing.explicacio3": "En caso de no haber generado el fichero con Angular Cli podemos configurar el proyecto manualmente.",
 
@@ -19,6 +19,7 @@
   "angular.routing.config.explicacio2": "Después lo incorporemos al <code>src/app/app.module.ts</code>:",
   "angular.routing.config.explicacio3": "A partir de aqui ya podemos configurar las rutas para nuestro proyecto.",
 
+  "salutacio": "holiii",
   "exemple": "Ejemplo",
   "exemples": "Ejemplos",
   "component": "Componente",
