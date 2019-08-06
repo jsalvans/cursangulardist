@@ -27,7 +27,7 @@
   "angular.directives.ngif.then.explicacio2": "Amb el <i>then</i> el contingut del tag on estigui el <i>ngIf</i> no és mostrarà mai.",
   "angular.directives.ngif.nomes.ngtemplate": "Només vàlid en el tag ng-template",
 
-  "angular.directives.ngswitch.explicacio": "<i>ngSiwtch</i> és una directiva que permet mostrar un codi HTML o altre depenent del valor d'una variable.",
+  "angular.directives.ngswitch.explicacio": "<i>ngSwitch</i> és una directiva que permet mostrar un codi HTML o altre depenent del valor d'una variable.",
   "angular.directives.ngswitch.on1": "On <code>variable</code> és la variable a comprovar, <code>value</code> el possible valor que es comprovarà i <code>content</code> el contingut que es mostrarà si el valor coincideix amb el de la variable.",
   "angular.directives.ngswitch.on2": "En cas de que no coincideixi amb cap es mostrarà el contigut del tag que contingui l'atribut <code>*ngSwitchDefault</code> si s'ha informat.",
 
@@ -62,6 +62,9 @@
   "angular.directives.ngstyle.explicacio": "<i>ngStyle</i> és una directiva que permet aplicar estils a un tag.",
   "angular.directives.ngstyle.on1": "On <code>styleName</code> és el nom de la propietat CSS, <code>styleValue</code> és el valor que se li vol assignar a la propietat, <code>styleUnit</code> és la unitat de mesura amb la que s'aplicarà la propietat en cas necessari, <code>object</code> és un objecte (clau/valor) on la cada clau seria una propietat CSS a aplicar i el valor seria el valor de la propietat; i <code>variable</code> és una variable de tipus string que contindria el valor de la propietat CSS.",
   "angular.directives.ngstyle.on2": "La unitat de mesura també es pot especificar en cada valor de les propietats CSS.",
+
+  "angular.directives.structures.menu": "Directives: Estructures Auxiliars",
+  "angular.directives.structures.title": "Estructures Auxiliars",
 
   "angular.routing.explicacio1": "El <i>routing</i> és la forma de dir-li a Angular quins components es faràn servir depenent de les rutes per on vagi navegant l'usuari.",
   "angular.routing.explicacio2": "Quan es crea un projecte nou amb Angular Cli aquest et pregunta si el vols implementar, crean-te el fitxer <code>src/app/app-routing.module.ts</code>, per poder configurar les diferents rutes, i configurant-te el <code>src/app/app.module.ts</code>.",
