@@ -65,6 +65,21 @@
 
   "angular.directives.structures.menu": "Directives: Estructures Auxiliars",
   "angular.directives.structures.title": "Estructures Auxiliars",
+  "angular.directives.structures.explicacio1": "Com hem pogut veure, en les directives <i>ngIf</i>, <i>ngFor</i> i <i>ngSwitch</i> es fa servir un asterisc (<code>*</code>) com a prefix d'aquestes (o d'atributs auxiliars en el cas del <i>ngSwitch</i>).",
+  "angular.directives.structures.explicacio2": "Aquest asterisc indica que la directiva modifica l'estructura HTML i Angular internament traduirà el codi en un altre que faci servir el ng-template.",
+  "angular.directives.structures.explicacio3": "Per exemple tenim el següent codi de l'esquerra que Angular el traduirà al de la dreta:",
+  "angular.directives.structures.explicacio4": "En un tag només pot haver-hi una directiva amb asterisc a la vegada. Si fessim el següent exemple no funcionaria:",
+  "angular.directives.structures.explicacio5": "Per fer-lo funcionar hauriem de moure el <i>ngIf</i> a un tag pare o fer servir el una estructura auxiliar.",
+  "angular.directives.structures.container.explicacio1": "Amb aquesta estructura podem fer servir multiples directives amb asterics, un en el mateix <i>ngContainer</i> i l'altre en el fill.",
+  "angular.directives.structures.container.explicacio2": "El <i>NgContainer</i> mai es mostrarà al HTML final, sinó que només es mostrarà el seu contingut.",
+  "angular.directives.structures.container.explicacio3": "(Amb la consola de desenvolupador del navegador podeu comprovar que no apareix el tag <code>ng-container</code>)",
+  "angular.directives.structures.template.explicacio1": "Amb aquesta estructura podem declarar una estructura HTML. Aquesta estructura per si sola no apareixerà, sinó que només ho farà si li apliquem un <i>ngIf</i>, <i>ngFor</i>, <i>ngSwitchCase</i> o <i>ngSwitchDefault</i>; o si la cridem mitjançant el <i>else</i> o <i>then</i> del <i>ngIf</i>.",
+  "angular.directives.structures.template.explicacio2": "En el cas del <i>NgContainer</i>, on normalment fariem servir asterisc, farem servir claudàtors (<code>[]</code>) o l'atribut tal qual en cas de que no se li necessiti passar cap paràmetre, pel que podrem posar directives juntes quan normalment no podriem (una amb asterisc i l'altre amb claudàtors).",
+  "angular.directives.structures.template.explicacio3": "De la mateixa manera que el <i>NgContainer</i>, el <i>NgTemplate</i> mai es mostrarà al HTML final, sinó que només es mostrarà el seu contingut.",
+  "angular.directives.structures.template.explicacio4": "(Amb la consola de desenvolupador del navegador podeu comprovar que no apareix el tag <code>ng-template</code>)",
+
+  "angular.directives.ngtemplateoutlet.explicacio": "<i>NgTemplateOutlet</i> és una directiva per que permet pintar el contingut d'un <i>NgTemplate</i> en un <i>NgContainer</i> i aplicar-li, si es vol, variables mitjançant un context.",
+  "angular.directives.ngtemplateoutlet.on": "<span>On:</span><ul> <li><code>idTemplate</code>: és l'identificador del <i>NgTemplate</i>.</li><li><code>content</code>: és el contingut que es vol mostrar.</li><li><code>default</code>: és l'alies a assignar a la variable per defecte del context (intruduïda en <code>$implicit</code>).</li><li><code>defaultValue</code>: és el valor de la variable per defecte (intruduïda en <code>$implicit</code>).</li><li><code>variable</code>: és una variable que pots assignar a banda de la que hi ha per defecte (podent assignar tantes com es vulgui).</li><li><code>variableValue</code>: és el valor de la variable.</li><li><code>alias</code>: és l'alies a assignar a una de les variables.</li><li><code>contextObj</code>: és una variable del component que representa el context.</li></ul>",
 
   "angular.routing.explicacio1": "El <i>routing</i> és la forma de dir-li a Angular quins components es faràn servir depenent de les rutes per on vagi navegant l'usuari.",
   "angular.routing.explicacio2": "Quan es crea un projecte nou amb Angular Cli aquest et pregunta si el vols implementar, crean-te el fitxer <code>src/app/app-routing.module.ts</code>, per poder configurar les diferents rutes, i configurant-te el <code>src/app/app.module.ts</code>.",
