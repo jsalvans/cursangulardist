@@ -52,6 +52,9 @@
   "angular.directives.ngfor.exemple.cognoms": "Cognoms",
   "angular.directives.ngfor.exemple.edat": "Edat",
 
+  "angular.directives.ngvalue.explicacio1": "<i>NgValue</i> és una directiva que permet passar un paràmetre del component a la vista de la mateixa manera que es podria fer amb <code>[value]</code>.",
+  "angular.directives.ngvalue.explicacio2": "La diferencia que hi ha entre <code>[value]</code> i <code>[ngValue]</code> és que el primer sempre serà text i el segon poden ser objectes.",
+
   "angular.directives.ngclass.explicacio1": "<i>ngClass</i> és una directiva que permet aplicar una o varies classes a un tag, les quals poden provenir o no s'una variable i poden tenir o no una condició per aplicar-les.",
   "angular.directives.ngclass.explicacio2": "Depenent del contingut de l'atribut reaccionarà d'una manera o altre.",
   "angular.directives.ngclass.string.explicacio": "S'aplicarà al tag la classe corresponent a cada text separat entre espais.",
